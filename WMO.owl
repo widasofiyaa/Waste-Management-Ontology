@@ -1,0 +1,1176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#"
+     xml:base="http://www.semanticweb.org/wida/ontologies/2022/0/WMO"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wmo="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diMilikiOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diMilikiOleh">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPemilik"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kebun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanOleh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diprosesOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diprosesOleh"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBerat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBerat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasLokasiPembuangan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasLokasiPembuangan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPemilik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPemilik">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyediaLayanan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyediaLayanan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTanggalPengumpulan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTanggalPengumpulan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTempatTinggal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTempatTinggal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isTersusunDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isTersusunDari"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#konsumen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#konsumen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#mengumpulkan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#mengumpulkan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#menyediakan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#menyediakan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#proses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#proses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tempat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tempat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tersusunDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tersusunDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasAlamat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasAlamat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasFungsiBangunan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasFungsiBangunan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasJenisBahaya -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasJenisBahaya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTanggalPengumpulan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTanggalPengumpulan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasWaktuLayanan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasWaktuLayanan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isBerbahaya -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isBerbahaya"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isKelebihanBerat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isKelebihanBerat"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaPublik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaPublik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaTerbuka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaTerbuka">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembuangan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bangunan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bangunan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Penyewa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Penyewa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyediaLayanan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaPengumpulanSampah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasAlamat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasFungsiBangunan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanKomersial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanKomersial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bangunan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Organisasi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bangunan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyewa"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#DaurUlang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#DaurUlang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#ProdukDaurUlang"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Dumping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Dumping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tempat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaTerbuka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Ekspor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Ekspor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Insinerasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Insinerasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#JenisLimbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#JenisLimbah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kapasitas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kapasitas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KapasitasLimbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KapasitasLimbah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kapasitas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#JenisLimbah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kebun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kebun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diMilikiOleh"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KonsumenLayanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KonsumenLayanan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Layanan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Landfill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Landfill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tempat"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaTerbuka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Layanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Layanan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LayananPengumpulanSampah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LayananPengumpulanSampah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasWaktuLayanan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#JenisLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bangunan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanOleh"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaPengumpulanSampah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#diprosesOleh"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBerat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KapasitasLimbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasLokasiPembuangan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTanggalPengumpulan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isKelebihanBerat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahAir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahAir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBeracun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBeracun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tersusunDari"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isTersusunDari"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasBentukFisik"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasJenisBahaya"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#isBerbahaya"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBesar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBesar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKebun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKebun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kebun"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKomersial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKomersial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanKomersial"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKonstruksi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKonstruksi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiKonstruksi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKorosif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKorosif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tersusunDari"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahLayananKota -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahLayananKota">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaPublik"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahMudahTerbakar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahMudahTerbakar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tersusunDari"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahPerumahan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahPerumahan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#dikumpulkanDari"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahReaktif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahReaktif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahBerbahaya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiDaurUlang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiDaurUlang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#DaurUlang"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#ProdukDaurUlang"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiDumping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiDumping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Dumping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiInsenerasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiInsenerasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Insinerasi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiKonstruksi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiKonstruksi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiLandfill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiLandfill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Landfill"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaLayanan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#proses"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPemilik"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Owner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiTerbukaInsenerasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiTerbukaInsenerasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembakaran"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodeLain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodeLain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasMetodePengolahan"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Ekspor"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodeLain"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembuangan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Organisasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Organisasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembakaran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembakaran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#MetodePembuangan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#tempat"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AreaTerbuka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembuangan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembuangan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaLayanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaLayanan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Layanan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaPengumpulanSampah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaPengumpulanSampah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaLayanan"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#mengumpulkan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#menyediakan"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LayananPengumpulanSampah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasLokasiPembuangan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPemilik"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Owner"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Penyewa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Penyewa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#ProdukDaurUlang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#ProdukDaurUlang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahDenganPengumpulanLimbah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahDenganPengumpulanLimbah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KonsumenLayanan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#konsumen"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LayananPengumpulanSampah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasPenyediaLayanan"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#PenyediaPengumpulanSampah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTempatTinggal"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#RumahTangga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KonsumenLayanan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Kota"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#memproduksi"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Limbah"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#hasTempatTinggal"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BangunanTempatTinggal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#StandarPembuangan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#StandarPembuangan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Pembuangan"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AsamFluorida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AsamFluorida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKorosif"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AsamKlorida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#AsamKlorida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahKorosif"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Baterai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Baterai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahReaktif"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bensin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bensin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahMudahTerbakar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BentarGebang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BentarGebang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BotolPlastik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#BotolPlastik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahPerumahan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Cair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Cair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Gas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Gas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Koran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Koran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahPerumahan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Lumpur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Lumpur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Metanol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Metanol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahMudahTerbakar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Oksidator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Oksidator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Bahan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahReaktif"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Padat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Padat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#KeadaanFisikLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#TasPlastik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#TasPlastik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LimbahPerumahan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#TidakSewa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#TidakSewa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#Penyewa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfJakartaBarat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfJakartaBarat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfJakartaTimur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfJakartaTimur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfSunter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#itfSunter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wida/ontologies/2022/0/WMO#LokasiPengolahanLimbah"/>
+        <hasAlamat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RT6/RW6, Sunter Agung, tanjung Priok, Jakarta Utara</hasAlamat>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
